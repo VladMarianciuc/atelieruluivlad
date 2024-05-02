@@ -1,0 +1,17 @@
+---
+title: "Atelierul lui Vlad"
+subtitle: "Un site unde îmi prezint lucrări, idei, matematică și alte lucruri posibil interesante?"
+format: html
+editor: visual
+author: "Vlad Marianciuc"
+date: "1 mai 2024"
+theme: flatly
+smooth-scroll: true
+code-fold: show
+---
+
+Acesta este site-ul meu
+
+```{r}
+1 + 1
+```
