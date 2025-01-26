@@ -1,17 +1,84 @@
----
-title: "Atelierul lui Vlad"
-subtitle: "Un site unde îmi prezint lucrări, idei, matematică și alte lucruri posibil interesante?"
-format: html
-editor: visual
-author: "Vlad Marianciuc"
-date: "1 mai 2024"
-theme: flatly
-smooth-scroll: true
-code-fold: show
----
+```{=html}
+<style>
+  /* Center the content using CSS Flexbox */
 
-Acesta este site-ul meu
+  body {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 0;
+    font-family: Helvetica;
+    background-color: white; /* Light background */
+  }
+  .quarto-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
-```{r}
-1 + 1
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center the buttons horizontally */
+}
+
+.buttons button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom:30px;
+    max-width:235px;
+    width:100vh;
+
+}
+
+.buttons button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.buttons button.quotation {
+    background-color: #008CBA; /* Blue */
+}
+
+.buttons button.quotation:hover {
+    background-color: #007B9E; /* Darker blue */
+}
+
+ .explanation {
+    font-size: 16px;
+    font-family: 'Calibri', sans-serif;
+    color: #333;
+    max-width: 320px; /* Match max-width of the button container */
+    text-align: center; /* Center the text */
+    width: 100%; /* Ensure the text takes the full width within the max-width constraint */
+
+  }
+</style>
 ```
+
+![](images/logo3.png){alt="Logo" fig-align="center" style="justify-content: center;" width="250"}
+
+::::: buttons
+::: explanation
+<p></p>
+:::
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScz1ony6ahB0YxgKkCkqjIAnuojA3Sq9xaM802IjhjlSyy42w/viewform?usp=sharing"><button>Programează o discuție</button></a>
+
+::: explanation
+<p></p>
+:::
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdPITiqVey_-KgcjAsQVPo4yiKweO1xfHkKa0P7kWFP4QyP0w/viewform?usp=sharing"><button class="quotation">Obține o ofertă de preț</button></a>
+:::::

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Atelierul lui Vlad",
     "section": "",
-    "text": "Acesta este site-ul meu\n\n\nCode\n1 + 1\n\n\n[1] 2"
+    "text": "Programează o discuție\n\n\n\n\nObține o ofertă de preț"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Atelierul lui Vlad",
+    "section": "About Me",
+    "text": "About Me\nI’m a passionate furniture designer with over 10 years of experience…"
+  },
+  {
+    "objectID": "index.html#portfolio",
+    "href": "index.html#portfolio",
+    "title": "Atelierul lui Vlad",
+    "section": "Portfolio",
+    "text": "Portfolio\nHere are some of my recent projects…"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Atelierul lui Vlad",
+    "section": "Contact Me",
+    "text": "Contact Me\nIf you’re interested in working together, feel free to reach out!\n\n  Book a Consultation     Get a Price Quotation  \n\n\nAcesta este site-ul meu\n\n\nCode\n1 + 1\n\n\n[1] 2"
   }
 ]
